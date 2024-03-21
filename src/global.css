@@ -17,19 +17,25 @@ footer {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-footer .copyright {
-    font-size: 14px;
-    color: #333;
-    text-align: center;
-}
-footer .copyright a {
-    color: #444;
-}
-footer .copyright a:hover {
-    color: #555;
-}
-footer .copyright:before {
-    content: '©';
+    justify-content: space-around;
+
+    .copyright {
+        font-size: 14px;
+        color: #333;
+        text-align: center;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .copyright:before {
+        content: '©';
+    }
+
+    .rs-logo {
+        height: 32px;
+        width: auto;
+    }
 }
